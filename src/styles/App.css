@@ -7,3 +7,18 @@ body {
 option {
   color: black;
 }
+
+/* styles.module.css */
+.microphone-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.microphone-button:hover {
+  background-color: #0056b3;
+}

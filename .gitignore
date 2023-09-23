@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -39,8 +38,3 @@ jspm_packages
 .next
 
 .node_modules
-=======
-.node_modules/
-
-*.env
->>>>>>> f5ec9d123b37ca0b14246b1ac9ca8112f29e8ffe
