@@ -26,11 +26,11 @@ function App({ Component, pageProps }: AppProps<{}>) {
       <Heading as='h1' size='2xl' noOfLines={1} pt="10px">The Feynmann Project</Heading>
       <Box pt={{ base: '10px', md: '20px' }} // Adjusted padding-top here
            float="right"
-           minHeight="90vh"
-           height="100%"
+           minHeight="80vh"
+           height="50%"
            overflow="auto"
            position="relative"
-           maxHeight="100%"
+           maxHeight="70%"
            w={{ base: '100%', xl: 'calc(100% - 290px)' }}
            maxWidth={{ base: '100%', xl: 'calc(100% - 290px)' }}
            transition="all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)"
@@ -38,10 +38,10 @@ function App({ Component, pageProps }: AppProps<{}>) {
            transitionProperty="top, bottom, width"
            transitionTimingFunction="linear, linear, ease"
       >
-        <Box mx="auto" p={{ base: '20px', md: '30px' }} pe="20px" minH="100vh" pt="50px">
+        <Box mx="auto" p={{ base: '20px', md: '30px' }} pe="20px" minH="1vh" pt="0px">
+          I just wanna 
           <Component apiKeyApp={apiKey} {...pageProps} />
         </Box>
-        <Box></Box>
       </Box>
     </ChakraProvider>
   );
